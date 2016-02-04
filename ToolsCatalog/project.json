@@ -22,7 +22,8 @@
 	},
 
 	"commands": {
-		"web": "Microsoft.AspNet.Server.Kestrel"
+		"web": "Microsoft.AspNet.Server.Kestrel",
+        "selfhost": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://black-vm:80"
 	},
 
 	"frameworks": {
