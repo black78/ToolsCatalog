@@ -1,0 +1,17 @@
+﻿
+<div class="panel panel-default">
+
+	@*<div class="panel-heading">
+		<span class="h4">Tools</span>
+	</div>*@
+
+	<div class="panel-body">
+		<div class="list-group">
+			@foreach (var tool in (IEnumerable<ToolsCatalog.Services.ToolEntry>)ViewData["Tools"])
+			{
+				<a typeof="button" class="list-group-item" target="_blank" href="@tool.Url"><span class="glyphicon glyphicon-download-alt"></span> <span>Install</span> <span class="text-success">@tool.Title</span></a>
+			}
+		</div>
+	</div>
+
+</div>

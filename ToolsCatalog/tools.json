@@ -1,0 +1,19 @@
+﻿{
+	"tools": [
+		{
+			"name": "acrossProfile.application",
+			"title": "Across Profile Viewer",
+			"url": "/AcrossSharedTools/acrossProfile/acrossProfile.application"
+		},
+		{
+			"name": "Across.LogViewer.application",
+			"title": "Across Log Viewer",
+			"url": "/AcrossSharedTools/Across.LogViewer/Across.LogViewer.application"
+		},
+		{
+			"name": "CrossWebAnalyzer.application",
+			"title": "CrossWeb Log Analyzer",
+			"url": "/AcrossSharedTools/CrossWebAnalyzer/WebLogAnalyzer.application"
+		}
+	]
+}
