@@ -1,0 +1,19 @@
+﻿<div class="panel panel-default">
+
+	<div class="panel-body">
+		<p>First name: <strong data-bind="text: firstName"></strong></p>
+		<p>Last name: <strong data-bind="text: lastName"></strong></p>
+
+		<div class="form-group">
+			<label>Languages</label>
+			<select class="form-control" data-bind="options: languages, optionsText: function(item) {return item.Name}" ></select>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	window.onload = function () {
+		LanguagesIndex();
+	}
+</script>
