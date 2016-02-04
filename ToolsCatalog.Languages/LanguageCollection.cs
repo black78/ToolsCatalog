@@ -1,4 +1,4 @@
-﻿namespace Across.Languages
+﻿namespace ToolsCatalog.Languages
 {
 	using System;
 	using System.Collections.Generic;

@@ -1,4 +1,4 @@
-﻿namespace Across.Languages
+﻿namespace ToolsCatalog.Languages
 {
 	using System.Collections;
 	using System.Runtime.InteropServices;

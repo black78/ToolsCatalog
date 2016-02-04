@@ -1,4 +1,4 @@
-namespace Across.Languages
+namespace ToolsCatalog.Languages
 {
 	using System.Runtime.InteropServices;
 
@@ -11,7 +11,7 @@ namespace Across.Languages
 	public interface ILanguage
 	{
 		/// <summary>
-		/// Gets the Across specific LCID.
+		/// Gets the ToolsCatalog specific LCID.
 		/// </summary>
 		int Lcid { get; }
 
@@ -21,9 +21,9 @@ namespace Across.Languages
 		int SystemLcid { get; }
 
 		/// <summary>
-		/// Gets a value indicating whether the language is specific to Across and is not supported by Windows.
+		/// Gets a value indicating whether the language is specific to ToolsCatalog and is not supported by Windows.
 		/// </summary>
-		bool IsAcrossSpecific { get; }
+		bool IsToolsCatalogSpecific { get; }
 
 		/// <summary>
 		/// Gets a value indicating whether the language represents a neutral culture, i.e. it is not country specific.
@@ -33,12 +33,12 @@ namespace Across.Languages
 		/// <summary>
 		/// Gets a value indicating whether the language is simplified.
 		/// Some languages have a "native" simplified variation (e.g. Chinese), others don't.
-		/// The latter will still get an artificial simplified language created by Across.
+		/// The latter will still get an artificial simplified language created by ToolsCatalog.
 		/// </summary>
 		bool IsSimplified { get; }
 
 		/// <summary>
-		/// Gets a value indicating whether the language is surrogate and created by Across. Content written in this language
+		/// Gets a value indicating whether the language is surrogate and created by ToolsCatalog. Content written in this language
 		/// is treated as not processed by a corrector.
 		/// </summary>
 		bool IsUncorrected { get; }

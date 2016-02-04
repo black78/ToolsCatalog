@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Across.Languages.Properties {
+namespace ToolsCatalog.Languages.Properties {
     using System;
     using System.Reflection;
     
@@ -38,7 +38,7 @@ namespace Across.Languages.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Across.Languages.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ToolsCatalog.Languages.Properties.Resources", typeof(Resources).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -176,7 +176,7 @@ namespace Across.Languages.Properties {
         ///      &quot;Lcid&quot;:54,
         ///      &quot;SystemLcid&quot;:54,
         ///      &quot;IsNeutral&quot;:true,
-        ///      &quot;IsAcrossSpecific&quot;:false,
+        ///      &quot;IsToolsCatalogSpecific&quot;:false,
         ///      &quot;IsUncorrected&quot;:false,
         ///      &quot;IsSimplified&quot;:false,
         ///      &quot;Name&quot;:&quot;af&quot;,
@@ -185,7 +185,7 @@ namespace Across.Languages.Properties {
         ///            &quot;Lcid&quot;:33846,
         ///            &quot;SystemLcid&quot;:1078,
         ///            &quot;IsNeutral&quot;:false,
-        ///            &quot;IsAcrossSpecific&quot;:true,
+        ///            &quot;IsToolsCatalogSpecific&quot;:true,
         ///            &quot;IsUncorrected&quot;:false,
         ///            &quot;IsSimplified&quot;:true,
         ///            &quot;Name&quot;:&quot;af-SF&quot;,

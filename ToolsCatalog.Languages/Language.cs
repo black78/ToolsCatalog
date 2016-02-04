@@ -1,9 +1,9 @@
-﻿namespace Across.Languages
+﻿namespace ToolsCatalog.Languages
 {
 	using System.Collections.Generic;
 	using System.Runtime.InteropServices;
 
-	using Across.Languages.Dto;
+	using ToolsCatalog.Languages.Dto;
 
 	/// <summary>
 	/// Represents a language with parent-child relations.
@@ -38,7 +38,7 @@
 			Lcid = languageDto.Lcid;
 			SystemLcid = languageDto.SystemLcid;
 			IsNeutral = languageDto.IsNeutral;
-			IsAcrossSpecific = languageDto.IsAcrossSpecific;
+			IsToolsCatalogSpecific = languageDto.IsToolsCatalogSpecific;
 			IsSimplified = languageDto.IsSimplified;
 			IsUncorrected = languageDto.IsUncorrected;
 			Name = languageDto.Name;
@@ -60,7 +60,7 @@
 		}
 
 		/// <summary>
-		/// Gets the Across specific LCID.
+		/// Gets the ToolsCatalog specific LCID.
 		/// </summary>
 		public int Lcid { get; private set; }
 
@@ -70,9 +70,9 @@
 		public int SystemLcid { get; private set; }
 
 		/// <summary>
-		/// Gets a value indicating whether the language is specific to Across and is not supported by Windows.
+		/// Gets a value indicating whether the language is specific to ToolsCatalog and is not supported by Windows.
 		/// </summary>
-		public bool IsAcrossSpecific { get; private set; }
+		public bool IsToolsCatalogSpecific { get; private set; }
 
 		/// <summary>
 		/// Gets a value indicating whether the language represents a neutral culture, i.e. it is not country specific.
@@ -82,12 +82,12 @@
 		/// <summary>
 		/// Gets a value indicating whether the language is simplified.
 		/// Some languages have a "native" simplified variation (e.g. Chinese), others don't.
-		/// The latter will still get an artificial simplified language created by Across.
+		/// The latter will still get an artificial simplified language created by ToolsCatalog.
 		/// </summary>
 		public bool IsSimplified { get; private set; }
 
 		/// <summary>
-		/// Gets a value indicating whether the language is surrogate and created by Across. Content written in this language
+		/// Gets a value indicating whether the language is surrogate and created by ToolsCatalog. Content written in this language
 		/// is treated as not processed by a corrector.
 		/// </summary>
 		public bool IsUncorrected { get; private set; }

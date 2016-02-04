@@ -1,4 +1,4 @@
-﻿namespace Across.Languages
+﻿namespace ToolsCatalog.Languages
 {
 	using System;
 	using System.Collections.Generic;
@@ -6,7 +6,7 @@
 	using System.Linq;
 	using System.Reflection;
 
-	using Across.Languages.Dto;
+	using ToolsCatalog.Languages.Dto;
 
 	using Newtonsoft.Json;
 

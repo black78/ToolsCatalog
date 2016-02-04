@@ -1,4 +1,4 @@
-namespace Across.Languages.Dto
+namespace ToolsCatalog.Languages.Dto
 {
 	/// <summary>
 	/// A data transfer object for a language.
@@ -14,7 +14,7 @@ namespace Across.Languages.Dto
 		}
 
 		/// <summary>
-		/// Gets or sets the Across specific LCID.
+		/// Gets or sets the ToolsCatalog specific LCID.
 		/// </summary>
 		public int Lcid { get; set; }
 
@@ -29,9 +29,9 @@ namespace Across.Languages.Dto
 		public bool IsNeutral { get; set; }
 
 		/// <summary>
-		/// Gets or sets a value indicating whether the language is Across specific.
+		/// Gets or sets a value indicating whether the language is ToolsCatalog specific.
 		/// </summary>
-		public bool IsAcrossSpecific { get; set; }
+		public bool IsToolsCatalogSpecific { get; set; }
 
 		/// <summary>
 		/// Gets or sets a value indicating whether the language is simplified.

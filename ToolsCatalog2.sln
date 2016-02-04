@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToolsCatalog", "ToolsCatalog\ToolsCatalog.xproj", "{AFE5BD13-5CE1-4306-90C6-5BAC57EEF6F9}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToolsCatalog.Languages", "ToolsCatalog.Languages\ToolsCatalog.Languages.xproj", "{39FB6602-C794-4D56-AB26-F32321A1D985}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AFE5BD13-5CE1-4306-90C6-5BAC57EEF6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFE5BD13-5CE1-4306-90C6-5BAC57EEF6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFE5BD13-5CE1-4306-90C6-5BAC57EEF6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FB6602-C794-4D56-AB26-F32321A1D985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FB6602-C794-4D56-AB26-F32321A1D985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FB6602-C794-4D56-AB26-F32321A1D985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FB6602-C794-4D56-AB26-F32321A1D985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

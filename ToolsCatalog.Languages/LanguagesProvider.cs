@@ -1,16 +1,16 @@
-﻿namespace Across.Languages
+﻿namespace ToolsCatalog.Languages
 {
 	using System;
 	using System.IO;
 	using System.Linq;
 	using System.Runtime.InteropServices;
 
-	using Across.Languages.Dto;
+	using ToolsCatalog.Languages.Dto;
 
 	using Newtonsoft.Json;
 
 	/// <summary>
-	/// Allows to retrieve Across languages.
+	/// Allows to retrieve ToolsCatalog languages.
 	/// </summary>
 	[ComVisible(true)]
 	[Guid("C5DAE5D6-ACA5-4463-8BF3-8881C8F948A1")]

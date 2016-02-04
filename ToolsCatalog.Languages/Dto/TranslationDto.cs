@@ -1,4 +1,4 @@
-namespace Across.Languages.Dto
+namespace ToolsCatalog.Languages.Dto
 {
 	/// <summary>
 	/// A data transfer object for a translation.
